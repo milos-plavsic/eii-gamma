@@ -239,6 +239,13 @@ a {
   box-shadow: var(--shadow);
 }
 
+.home-hero img {
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: #fff;
+  padding: 12px;
+}
+
 .section-head {
   max-width: 760px;
   margin-bottom: 34px;
