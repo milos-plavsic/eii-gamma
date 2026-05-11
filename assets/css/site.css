@@ -302,6 +302,44 @@ a {
   font-weight: 800;
 }
 
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  align-items: stretch;
+}
+
+.price-card,
+.retainer-card {
+  position: relative;
+  box-shadow: 0 14px 34px rgba(16, 47, 79, 0.08);
+}
+
+.price-card.featured {
+  border-top: 5px solid var(--gold);
+  box-shadow: var(--shadow);
+}
+
+.price-label {
+  display: inline-flex;
+  margin: 0 0 14px;
+  border-radius: 999px;
+  padding: 7px 11px;
+  background: rgba(27, 95, 167, 0.08);
+  color: var(--blue);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.price {
+  margin: 14px 0;
+  color: var(--navy);
+  font-size: clamp(1.8rem, 3vw, 2.45rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
 .process-list {
   display: grid;
   gap: 14px;
@@ -629,6 +667,25 @@ a {
   color: #fff;
 }
 
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.footer-brand img {
+  width: 62px;
+  height: 46px;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.footer-brand h2 {
+  margin: 0;
+}
+
 .footer-grid p {
   margin: 0;
 }
@@ -689,6 +746,7 @@ a {
 
   .grid.three,
   .grid.two,
+  .pricing-grid,
   .proof,
   .split,
   .page-hero .wrap,
