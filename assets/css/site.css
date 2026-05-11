@@ -457,6 +457,14 @@ a {
   box-shadow: var(--shadow);
 }
 
+.team-hero {
+  min-height: calc(100vh - 74px);
+}
+
+.team-hero .wrap {
+  display: block;
+}
+
 .callout {
   padding: 32px;
   border-radius: var(--radius);
