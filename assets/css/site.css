@@ -340,6 +340,64 @@ a {
   line-height: 1;
 }
 
+.showcase-list {
+  display: grid;
+  gap: 24px;
+}
+
+.showcase-card {
+  box-shadow: 0 14px 34px rgba(16, 47, 79, 0.08);
+}
+
+.showcase-card h3 {
+  font-size: clamp(1.45rem, 2vw, 2rem);
+}
+
+.showcase-top,
+.showcase-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.showcase-top {
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+
+.showcase-card .price-label {
+  max-width: min(100%, 420px);
+  line-height: 1.25;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: normal;
+}
+
+.showcase-meta {
+  margin: 18px 0 6px;
+}
+
+.showcase-meta p,
+.maturity {
+  margin: 0;
+  border-radius: 999px;
+  padding: 7px 11px;
+  background: var(--soft);
+  color: var(--navy);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.proof-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--gold);
+  background: rgba(198, 139, 28, 0.08);
+  color: var(--navy);
+}
+
 .process-list {
   display: grid;
   gap: 14px;
