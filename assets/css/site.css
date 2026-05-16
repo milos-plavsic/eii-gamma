@@ -731,6 +731,10 @@ a {
   object-fit: cover;
 }
 
+.person img.portrait-top {
+  object-position: center top;
+}
+
 .profile-card {
   align-items: start;
   box-shadow: 0 14px 34px rgba(16, 47, 79, 0.08);
