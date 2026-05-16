@@ -732,6 +732,7 @@ a {
 }
 
 .person img.portrait-top {
+  height: 310px;
   object-position: center top;
 }
 
