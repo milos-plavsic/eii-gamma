@@ -719,19 +719,20 @@ a {
 
 .person {
   display: grid;
-  grid-template-columns: 124px minmax(0, 1fr);
+  grid-template-columns: 186px minmax(0, 1fr);
   gap: 18px;
   align-items: center;
 }
 
 .person img {
-  width: 124px;
+  width: 186px;
   height: 124px;
   border-radius: var(--radius);
   object-fit: cover;
 }
 
 .person img.portrait-top {
+  width: 186px;
   height: 310px;
   aspect-ratio: auto;
   object-position: center top;
@@ -956,6 +957,7 @@ a {
   }
 
   .person img.portrait-top {
+    width: 100%;
     height: 310px;
     aspect-ratio: auto;
   }
