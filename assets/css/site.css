@@ -733,6 +733,7 @@ a {
 
 .person img.portrait-top {
   height: 310px;
+  aspect-ratio: auto;
   object-position: center top;
 }
 
@@ -754,6 +755,11 @@ a {
 
 .profile-card p + p {
   margin-top: 12px;
+}
+
+.profile-card .bio {
+  text-align: justify;
+  text-align-last: left;
 }
 
 .profile-card a {
@@ -947,6 +953,11 @@ a {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 10;
+  }
+
+  .person img.portrait-top {
+    height: 310px;
+    aspect-ratio: auto;
   }
 
   .button {
